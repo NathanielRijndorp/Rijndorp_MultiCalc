@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.326" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/drawable/ic_calc.xml" value="0.327" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/drawable/ic_launcher_background.xml" value="0.327" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/drawable/ic_solution.xml" value="0.327" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/call_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/contact_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/custom_grid_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/densityformula.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/fav_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formula1_fragment.xml" value="0.17831813576494426" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formula2_cone.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formula2_cylinder.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formula2_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formula2_rectangle.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formula2_sphere.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formuladensity.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formulafrequency.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formulanewton.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formulapower.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/formulaspeed.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/fragment_blank.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/item_formula1.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/item_formula2.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/newtonssecondlaw.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/qweqw.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/solution_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/speedformula.xml" value="0.36666666666666664" />
+        <entry key="..\:/MCM/Rijndorp_MultiCalc/app/src/main/res/layout/sssfg.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

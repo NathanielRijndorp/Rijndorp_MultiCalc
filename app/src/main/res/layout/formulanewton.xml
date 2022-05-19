@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="253dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:srcCompat="@drawable/item_newtonsecondlaw" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Newtons Second Law"
+        android:textColor="@color/color_secondary"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <EditText
+        android:id="@+id/fNLmass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="number"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/fNLaccel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="number"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/fNLmass"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fNLmass"
+        app:layout_constraintTop_toBottomOf="@+id/fNLmass" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Mass"
+        android:textColor="@color/color_secondary"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fNLmass"
+        app:layout_constraintEnd_toStartOf="@+id/fNLmass"
+        app:layout_constraintTop_toTopOf="@+id/fNLmass" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Acceleration"
+        android:textColor="@color/color_secondary"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fNLaccel"
+        app:layout_constraintEnd_toStartOf="@+id/fNLaccel"
+        app:layout_constraintTop_toTopOf="@+id/fNLaccel" />
+
+    <Button
+        android:id="@+id/btnNLCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/color_secondary"
+        android:fontFamily="@font/roboto"
+        android:onClick="onClick"
+        android:text="Calculate"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/fNLaccel"
+        app:layout_constraintStart_toStartOf="@+id/fNLaccel"
+        app:layout_constraintTop_toBottomOf="@+id/fNLaccel" />
+
+    <TextView
+        android:id="@+id/nlResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/color_secondary"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnNLCalc"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/btnNLCalc"
+        app:layout_constraintTop_toBottomOf="@+id/btnNLCalc" />
+
+    <TextView
+        android:id="@+id/nlResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/roboto"
+        android:text="Result"
+        android:textColor="@color/color_secondary"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nlResult"
+        app:layout_constraintEnd_toStartOf="@+id/nlResult"
+        app:layout_constraintTop_toTopOf="@+id/nlResult"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

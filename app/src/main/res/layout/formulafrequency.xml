@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="183dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:srcCompat="@drawable/item_frequencyformula" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Frequency Formula"
+        android:textColor="@color/color_secondary"
+        android:textSize="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <EditText
+        android:id="@+id/fFvelocity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="number"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/fFwavelength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="number"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/fFvelocity"
+        app:layout_constraintStart_toStartOf="@+id/fFvelocity"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Velocity"
+        android:textColor="@color/color_secondary"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fFvelocity"
+        app:layout_constraintEnd_toStartOf="@+id/fFvelocity"
+        app:layout_constraintTop_toTopOf="@+id/fFvelocity" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Wavelength"
+        android:textColor="@color/color_secondary"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fFwavelength"
+        app:layout_constraintEnd_toStartOf="@+id/fFwavelength"
+        app:layout_constraintTop_toTopOf="@+id/fFwavelength" />
+
+    <Button
+        android:id="@+id/btnFCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="@color/color_secondary"
+        android:fontFamily="@font/roboto"
+        android:onClick="onClick"
+        android:text="Calculate"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/fFwavelength"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/fFwavelength"
+        app:layout_constraintTop_toBottomOf="@+id/fFwavelength" />
+
+    <TextView
+        android:id="@+id/fResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/color_secondary"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnFCalc"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/btnFCalc"
+        app:layout_constraintTop_toBottomOf="@+id/btnFCalc" />
+
+    <TextView
+        android:id="@+id/fResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/roboto"
+        android:text="Result"
+        android:textColor="@color/color_secondary"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fResult"
+        app:layout_constraintEnd_toStartOf="@+id/fResult"
+        app:layout_constraintTop_toTopOf="@+id/fResult"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="286dp"
+        android:layout_height="187dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/item_rectangle" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/roboto"
+        android:text="Rectangle"
+        android:textColor="@color/color_secondary"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/fRect1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="number"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/fRect2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="number"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/fRect1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fRect1"
+        app:layout_constraintTop_toBottomOf="@+id/fRect1" />
+
+    <EditText
+        android:id="@+id/fRect3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="number"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/fRect2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fRect2"
+        app:layout_constraintTop_toBottomOf="@+id/fRect2" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/roboto"
+        android:text="Height"
+        android:textColor="@color/color_secondary"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fRect1"
+        app:layout_constraintEnd_toStartOf="@+id/fRect1"
+        app:layout_constraintTop_toTopOf="@+id/fRect1"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/roboto"
+        android:text="Length"
+        android:textColor="@color/color_secondary"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fRect2"
+        app:layout_constraintEnd_toStartOf="@+id/fRect2"
+        app:layout_constraintTop_toTopOf="@+id/fRect2" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/roboto"
+        android:text="Width"
+        android:textColor="@color/color_secondary"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fRect3"
+        app:layout_constraintEnd_toStartOf="@+id/fRect3"
+        app:layout_constraintTop_toTopOf="@+id/fRect3" />
+
+    <Button
+        android:id="@+id/btnRect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/color_secondary"
+        android:fontFamily="@font/roboto"
+        android:onClick="onClick"
+        android:text="Calculate"
+        android:textColor="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="@+id/fRect3"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/fRect3"
+        app:layout_constraintTop_toBottomOf="@+id/fRect3" />
+
+    <TextView
+        android:id="@+id/rectResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/roboto"
+        android:text=""
+        android:textColor="@color/color_secondary"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnRect"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/btnRect"
+        app:layout_constraintTop_toBottomOf="@+id/btnRect" />
+
+    <TextView
+        android:id="@+id/rectResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/roboto"
+        android:text="Result"
+        android:textColor="@color/color_secondary"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectResult"
+        app:layout_constraintEnd_toStartOf="@+id/rectResult"
+        app:layout_constraintTop_toTopOf="@+id/rectResult"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
